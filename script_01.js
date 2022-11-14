@@ -8,18 +8,13 @@
 4. Ausgabe in Konsole : check!
 */
 
-// (fake it, till you make it)
-
-
-
-
+// module: addition a +b | test:
 output(add(2,3));
 output(add(2,-3));
 output(add(2,0));
 function add(a,b)
 {
-    let c = a + b;
-    return c;
+    return a + b;
 }
 
 
