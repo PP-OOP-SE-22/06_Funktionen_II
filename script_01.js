@@ -9,29 +9,22 @@
 */
 
 // */ module: divide a / b | test:
-
-output(divide(2,3));
-output(divide(2,-3));
-output(divide(2,0));
-function divide(a,b)
+// output(divide(2,3));
+// output(divide(2,-3));
+// output(divide(2,0));
+// function divide(a,b)
 {   
+
 if (b != 0) {
-    //true
+        //true      v.2 nur  {if(b == 0) | return "Division by 0 not possible"}
     return a / b;
 } else 
-{ //false
-
+{      //false
 return "nicht möglich";
-
 }
 }
 
 
-
-
-
-
-    
 
 // */ module: multiply a * b | test:
 
