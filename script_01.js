@@ -15,15 +15,8 @@
 
 
 
-// */ module: calculator a b | test:
+// */ module: calculator | test:
 // agreement : "+", "-","*","/"
-
-
-
-
-
-
-
 
 
 
@@ -33,18 +26,35 @@ function startApp() {
     output(calculator(getNumber("1st"),getNumber("2nd"),getOp()))
 }
     function getNumber(figure) {
-        let inputStr = prompt("Please insert" + figure + "number");
+        let inputStr = prompt("Please insert " + figure + " number");
         let num = parseInt(inputStr);
         return num;
 }
-
+output(getOp());
 function getOp() {
     let op = prompt("please insert operator")
-    return op;
+    if (isOpValid(op)) {
+        return "operator ok";
+    } else {
+        return "operator nicht ok";
+}
+}
+function isOpValid(op) {
+    switch (key) {
+        case "+":
+            case "-":
+                case "*":
+                    case "/":
+            return true;    
+        default:
+           return false;
+    }
 }
 
 
 // */ module: calculator | test:
+// agreement : "+", "-","*","/"
+
 // output(calculator(2,2,"+"));
 // output(calculator(2,2,"-"));
 // output(calculator(2,2,"*"));
