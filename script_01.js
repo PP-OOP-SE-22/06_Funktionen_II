@@ -45,8 +45,6 @@ function divide(a,b)
     if(b == 0) 
      return "Division by 0 not possible"}
     
-  
-
 
 
 // */ module: multiply a * b | test:
