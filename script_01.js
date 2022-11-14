@@ -10,6 +10,22 @@
 
 
 
+
+
+
+
+
+// */ module: multiply a * b | test:
+
+// output(multiply(2,3));
+// output(multiply(2,-3));
+// output(multiply(2,0));
+function multiply(a,b)
+{   
+    return a * b;
+}
+
+
 // */ module: subtract a - b | test:
 
 // output(subtract(2,3));
