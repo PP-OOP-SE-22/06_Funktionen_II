@@ -16,6 +16,7 @@ output(calculator(2,2,"+"));
 output(calculator(2,2,"-"));
 output(calculator(2,2,"*"));
 output(calculator(2,2,"/"));
+output(calculator(2,0,"/"));
 output(calculator(2,2,"#?!"));
 
 function calculator(a,b,op)
