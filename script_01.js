@@ -8,3 +8,12 @@
 4. Ausgabe in Konsole :
 */
 
+// (fake it, till you make it)
+
+// module: console output | test:
+// output("hello");
+// output(2);
+function output(outputData)
+{
+    console.log(outputData);
+}
