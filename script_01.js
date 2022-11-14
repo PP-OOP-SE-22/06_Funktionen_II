@@ -19,12 +19,38 @@
 // agreement : "+", "-","*","/"
 
 
-output(calculator(2,2,"+"));
-output(calculator(2,2,"-"));
-output(calculator(2,2,"*"));
-output(calculator(2,2,"/"));
-output(calculator(2,0,"/"));
-output(calculator(2,2,"#?!"));
+
+
+
+
+
+
+
+
+// application / App
+startApp();
+function startApp() {
+    output(calculator(getNumber("1st"),getNumber("2nd"),getOp()))
+}
+    function getNumber(figure) {
+        let inputStr = prompt("Please insert" + figure + "number");
+        let num = parseInt(inputStr);
+        return num;
+}
+
+function getOp() {
+    let op = prompt("please insert operator")
+    return op;
+}
+
+
+// */ module: calculator | test:
+// output(calculator(2,2,"+"));
+// output(calculator(2,2,"-"));
+// output(calculator(2,2,"*"));
+// output(calculator(2,2,"/"));
+// output(calculator(2,0,"/"));
+// output(calculator(2,2,"#?!"));
 
 function calculator(a,b,op)
 {
@@ -94,7 +120,7 @@ function add(a,b)
 // output(2);
 function output(outputData)
 {
-console.log(typeof outputData);
+// console.log(typeof outputData);
 
     if (true)
     {
