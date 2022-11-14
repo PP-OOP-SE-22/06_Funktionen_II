@@ -5,10 +5,23 @@
 1. Dateneingabe + -überprüfung :
 2. Auswahl Rechenart : 
 3. Fkt. Grundrechenarten :
-4. Ausgabe in Konsole :
+4. Ausgabe in Konsole : check!
 */
 
 // (fake it, till you make it)
+
+
+
+
+output(add(2,3));
+output(add(2,-3));
+output(add(2,0));
+function add(a,b)
+{
+    let c = a + b;
+    return c;
+}
+
 
 // module: console output | test:
 // output("hello");
