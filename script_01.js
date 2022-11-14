@@ -40,7 +40,7 @@ function getOp() {
 }
 }
 function isOpValid(op) {
-    switch (key) {
+    switch (isOpValid) {
         case "+":
             case "-":
                 case "*":
