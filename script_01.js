@@ -8,12 +8,30 @@
 4. Ausgabe in Konsole : check!
 */
 
+// */ module: divide a / b | test:
+
+output(divide(2,3));
+output(divide(2,-3));
+output(divide(2,0));
+function divide(a,b)
+{   
+if (b != 0) {
+    //true
+    return a / b;
+} else 
+{ //false
+
+return "nicht möglich";
+
+}
+}
 
 
 
 
 
 
+    
 
 // */ module: multiply a * b | test:
 
@@ -24,7 +42,6 @@ function multiply(a,b)
 {   
     return a * b;
 }
-
 
 // */ module: subtract a - b | test:
 
