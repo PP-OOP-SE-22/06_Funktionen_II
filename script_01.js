@@ -12,24 +12,24 @@
 // agreement : "+", "-","*","/"
 
 
-output(calculator("+"));
-output(calculator("-"));
-output(calculator("*"));
-output(calculator("/"));
-output(calculator("#?!"));
+output(calculator(2,2,"+"));
+output(calculator(2,2,"-"));
+output(calculator(2,2,"*"));
+output(calculator(2,2,"/"));
+output(calculator(2,2,"#?!"));
 
-function calculator(op)
+function calculator(a,b,op)
 {
     switch (op)
     {
         case "+":  // addition
-            return "add";
+            return add(a,b);
         case "-": // subtraction
-            return "sub";
+            return subtract(a,b);
         case "*": //multiply
-            return "mul";
+            return multiply(a,b);
         case "/": //divide
-            return "div";
+            return divide(a,b);
         default: // Error
             return "something went wrong";
     }
@@ -42,8 +42,11 @@ function calculator(op)
 // output(divide(2,0));
 function divide(a,b)
 {
-    if(b == 0) 
-     return "Division by 0 not possible"}
+    if(b == 0) {
+        return "Division by 0 not possible";
+    }
+    return a/b;
+}
     
 
 
