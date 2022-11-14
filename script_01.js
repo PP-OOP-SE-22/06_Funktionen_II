@@ -3,21 +3,28 @@
 /*
 0. a+b / a-b/ a*b / a/b  // ergebnis c 
 1. Dateneingabe + -überprüfung :
-2. Auswahl Rechenart : 
+2. Auswahl Rechenart : check!
 3. Fkt. Grundrechenarten : check!
 4. Ausgabe in Konsole : check!
 */
+
+
+
+
+
+
+
 
 // */ module: calculator a b | test:
 // agreement : "+", "-","*","/"
 
 
-output(calculator(2,2,"+"));
-output(calculator(2,2,"-"));
-output(calculator(2,2,"*"));
-output(calculator(2,2,"/"));
-output(calculator(2,0,"/"));
-output(calculator(2,2,"#?!"));
+// output(calculator(2,2,"+"));
+// output(calculator(2,2,"-"));
+// output(calculator(2,2,"*"));
+// output(calculator(2,2,"/"));
+// output(calculator(2,0,"/"));
+// output(calculator(2,2,"#?!"));
 
 function calculator(a,b,op)
 {
@@ -83,9 +90,17 @@ function add(a,b)
 
 
 // module: console output | test:
-// output("hello");
-// output(2);
+output("hello");
+output(2);
 function output(outputData)
 {
-    console.log(outputData);
-}
+    if (false)
+    {
+        console.log("The result is: " + outputData);
+    } 
+        else
+        {
+            console.log("Error: " + outputData);
+        }
+    }
+    
